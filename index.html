@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body class="show-cart">
+    <!--Navbar-->
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="">
+        </a>
+
+        <!--Menu Icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <!--Links-->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+
+        <!--Icons-->
+        
+        <div class="header-icon">
+            <i class='bx bx-cart-alt'></i>
+            <span>0</span>
+            <i class='bx bx-search-alt-2' id="search-icon"></i>
+        </div>
+
+        <div class="cart-tab">
+           <h1>Shopping Cart</h1>
+           <div class="list-cart">
+            <div class="item">
+                <div class="image">
+                    <img src="img/p1.png" alt="p1">
+                </div>
+                <div class="name">
+                    Handmade Side Bag
+                </div>
+                <div class="total-price">
+                    Rs.6000/=
+                </div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                    <span>1</span>
+                    <span class="plus">></span>
+                </div>
+
+                <div class="image">
+                    <img src="img/p2.png" alt="p2">
+                </div>
+                <div class="name">
+                    Hair Bands
+                </div>
+                <div class="total-price">
+                    Rs.1500/=
+                </div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                    <span>1</span>
+                    <span class="plus">></span>
+                </div>
+
+                <div class="image">
+                    <img src="img/p10.png" alt="p10">
+                </div>
+                <div class="name">
+                    Handmade Dall
+                </div>
+                <div class="total-price">
+                    Rs.2500/=
+                </div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                    <span>1</span>
+                    <span class="plus">></span>
+                </div>
+
+            </div>
+           </div>
+
+           <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOue">CHECK OUT</button>
+           </div>
+        </div>
+    
+
+        <!--Search Box-->
+        <div class="search-box">
+            <input type="search" placeholder="Search Here.....">
+        </div>
+    </header>
+
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Discover Unique, <br>Handmade Treasures</h1>
+            <p>Welcome to Crafted Treasures, where creativity meets craftsmanship. Explore our unique, 
+                artisanal products, each meticulously crafted with love and passion. From home decor to 
+                personal accessories, every item tells a story and is designed to add a touch of charm to 
+                your life. Discover the beauty of handmade treasures today....!</p>
+                <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/main.png" alt="main">
+        </div>
+    </section>
+
+     <!--About-->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.jpeg" alt="about">
+        </div>
+        <div class="about-text">
+            <h2>Our History</h2>
+            <p>Crafted Treasures was founded in 2010 by Emily and James Carter, starting as a small online store 
+                offering their handcrafted jewelry and home decor. Their passion for handmade artistry and 
+                collaboration with other craftsmen led to a diverse product range and a loyal following.</p>
+
+            <p>In 2015, they opened their first brick-and-mortar shop in their hometown, quickly becoming a local 
+                favorite known for high-quality, unique pieces and a welcoming atmosphere. Each item reflects 
+                their commitment to sustainability, quality, and the beauty of handmade craftsmanship.</p>
+
+            <p>Today, Crafted Treasures thrives both online and offline, offering artisanal goods from around 
+                the world. Dedicated to supporting independent artists, the shop provides customers with unique, 
+                meaningful items, bringing joy and inspiration through the beauty of handmade treasures.</p>
+                <a href="https://awesomepatternstudio.com/blog/blog/the-history-of-handmade-crafts/" class="btn">Learn More</a>
+        </div>
+     </section>
+
+     <!--Products-->
+     <section class="products" id="products">
+        <div class="heading">
+            <h2>Our Popular Products</h2>
+        </div>
+
+        <!--Container-->
+        <div class="product-container">
+            <div class="box">
+                <img src="img/p1.png" alt="p1">
+                <h3>Handmade Side Bag</h3>
+                <div class="content">
+                    <span>Rs.6000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p2.png" alt="p2">
+                <h3>Hair Bands</h3>
+                <div class="content">
+                    <span>Rs.1500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p3.png" alt="p3">
+                <h3> Wood Painted Earrings</h3>
+                <div class="content">
+                    <span>Rs.1800/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p4.png" alt="p4">
+                <h3>Bubble Handle Coffee Mugs</h3>
+                <div class="content">
+                    <span>Rs.2500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p5.png" alt="p5">
+                <h3>Copper Spiral Earring Display Stand</h3>
+                <div class="content">
+                    <span>Rs.1500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p6.png" alt="p6">
+                <h3>Handmade Bag</h3>
+                <div class="content">
+                    <span>Rs.6000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p7.png" alt="p7">
+                <h3>Hair Bands</h3>
+                <div class="content">
+                    <span>Rs.900/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p8.png" alt="p8">
+                <h3>Classic Crochet Bag</h3>
+                <div class="content">
+                    <span>Rs.5400/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p9.png" alt="p9">
+                <h3>Hair Accessories</h3>
+                <div class="content">
+                    <span>Rs.2000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p10.png" alt="p10">
+                <h3>Handmade Dall</h3>
+                <div class="content">
+                    <span>Rs.2500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p11.png" alt="p11">
+                <h3>Cute Makeup Brush Holder</h3>
+                <div class="content">
+                    <span>Rs.2000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p12.png" alt="p12">
+                <h3>Ring Holder</h3>
+                <div class="content">
+                    <span>Rs.2800/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p13.png" alt="p13">
+                <h3>Handmade Items</h3>
+                <div class="content">
+                    <span>Rs.1200/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p14.png" alt="p14">
+                <h3>Clay lamp</h3>
+                <div class="content">
+                    <span>Rs.2500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p15.png" alt="p15">
+                <h3>Handmade Dall</h3>
+                <div class="content">
+                    <span>Rs.2350/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p16.png" alt="p16">
+                <h3>Bamboo Natural Table Fruit Deck</h3>
+                <div class="content">
+                    <span>Rs.4000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p17.png" alt="p17">
+                <h3>House Keychain</h3>
+                <div class="content">
+                    <span>Rs.1500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p18.png" alt="p18">
+                <h3>Wooden Spoons</h3>
+                <div class="content">
+                    <span>Rs.1600/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p19.png" alt="p19">
+                <h3>Candy Bowl</h3>
+                <div class="content">
+                    <span>Rs.8000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p20.png" alt="p20">
+                <h3>Wooden Wall Pot House</h3>
+                <div class="content">
+                    <span>Rs.5200/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p21.png" alt="p21">
+                <h3>Heart Keychain</h3>
+                <div class="content">
+                    <span>Rs.1200/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p22.png" alt="p22">
+                <h3>Multi Color Fabric Umbrella</h3>
+                <div class="content">
+                    <span>Rs.3500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p23.png" alt="p23">
+                <h3>Wooden Wine Cup</h3>
+                <div class="content">
+                    <span>Rs.6200/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p24.png" alt="p24">
+                <h3>Earbud Pouch</h3>
+                <div class="content">
+                    <span>Rs.1500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p25.png" alt="p25">
+                <h3>Handmade Owl</h3>
+                <div class="content">
+                    <span>Rs.8000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p26.png" alt="p26">
+                <h3>Handmade Little Animals</h3>
+                <div class="content">
+                    <span>Rs.2800/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p27.png" alt="p27">
+                <h3>Wooden Pot</h3>
+                <div class="content">
+                    <span>Rs.9000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p28.png" alt="p28">
+                <h3>Indian Cup Sets</h3>
+                <div class="content">
+                    <span>Rs.5400/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p29.png" alt="p29">
+                <h3>Tealight Holders</h3>
+                <div class="content">
+                    <span>Rs.2100/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p30.png" alt="p30">
+                <h3>Handmade packaging</h3>
+                <div class="content">
+                    <span>Rs.7000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p31.png" alt="p31">
+                <h3>Spice Rack</h3>
+                <div class="content">
+                    <span>Rs.5300/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p32.png" alt="p32">
+                <h3>Handmade bag</h3>
+                <div class="content">
+                    <span>Rs.3000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p33.png" alt="p33">
+                <h3>Leaves Pot Holders</h3>
+                <div class="content">
+                    <span>Rs.2450/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p34.png" alt="p34">
+                <h3>Wooden Antique Home</h3>
+                <div class="content">
+                    <span>Rs.6000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p35.png" alt="p35">
+                <h3>Wooden Tea Pot</h3>
+                <div class="content">
+                    <span>Rs.7000/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/p36.png" alt="p36">
+                <h3>Ceramic Plates</h3>
+                <div class="content">
+                    <span>Rs.4500/=</span>
+                    <a href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+      <!--Customers-->
+      <section class="customers" id="customers">
+        <div class="heading">
+            <h2>Our Customer's</h2>
+        </div>
+
+         <!--Container-->
+         <div class="customers-container">
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+
+                <p>I stumbled upon Crafted Treasures while looking for a special gift, and I'm so glad I did! The handmade necklace I bought is absolutely 
+                    stunning, with intricate details that make it truly unique. The craftsmanship is top-notch, and it arrived beautifully packaged, making 
+                    it perfect for gifting. I'm already planning my next purchase from this wonderful shop! 😊💎</p>
+                <h2>Tevin Dilshan</h2>
+               <img src="img/rev1.jpg" alt="c1">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+
+                <p>Shopping at Crafted Treasures was a delightful experience from start to finish. The personalized service I received was exceptional, 
+                    and the staff went above and beyond to help me find the perfect decor piece for my living room. The handmade ceramic vase I chose is not 
+                    only beautiful but also adds a touch of elegance to my home. I highly recommend this shop for anyone looking to add a special, handmade 
+                    touch to their space! 🏠🌷</p>
+                <h2>Tehan Nimsitha</h2>
+               <img src="img/rev2.jpg" alt="c2">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+
+                <p>I've become a loyal customer of Crafted Treasures because of their consistently high-quality products and excellent customer service. 
+                    The handmade scarf I recently purchased is not only cozy and warm but also beautifully crafted with attention to detail. It's clear that 
+                    each item in their collection is made with care and passion. Whether shopping for myself or finding gifts for loved ones, I know I can 
+                    always find something special at Crafted Treasures. 👏🧣</p>
+                <h2>Tharushi Nethmini</h2>
+               <img src="img/rev3.jpg" alt="c3">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+
+                <p>Crafted Treasures exceeded my expectations in every way. I ordered a handmade candle as a birthday gift, and it arrived 
+                    promptly and securely packaged. The scent is divine, and the aesthetic of the candle itself is so pleasing. It's clear that 
+                    the artisans behind these products are truly talented. I'll definitely be returning to explore more of their unique offerings. 
+                    Highly recommend! 🕯️🎁</p>
+                <h2>Udama Methsiluni</h2>
+               <img src="img/rev4.jpeg" alt="c3">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+
+                <p>I adore Crafted Treasures! Their handmade jewelry is exquisite, and I couldn't resist treating myself to a pair of earrings. 
+                    They're not only beautifully designed but also surprisingly lightweight and comfortable to wear. The attention to detail is 
+                    evident, and I appreciate supporting local artisans through my purchase. The packaging was lovely too, making it feel like 
+                    a special gift to myself. I'm already eyeing their next collection for my next splurge! 💍✨</p>
+                <h2>Lahiru Bawantha</h2>
+               <img src="img/rev5.jpeg" alt="c3">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+
+                <p>Crafted Treasures is my go-to shop for unique gifts, and they never disappoint. Recently, I purchased a handmade leather 
+                    journal as a graduation present for my niece. The quality of craftsmanship is outstanding, and the personalized touch 
+                    with her initials embossed on the cover made it even more special. She absolutely loved it! The customer service was 
+                    exceptional as well, with prompt responses to my inquiries and fast shipping. I highly recommend Crafted Treasures for 
+                    anyone looking for meaningful, handcrafted treasures. 📔🎓</p>
+                <h2>Sakuni Dakshina</h2>
+               <img src="img/rev6.jpeg" alt="c3">
+            </div>
+
+         </div>
+      </section>
+
+      <!--Footer-->
+      <section class="footer">
+        <div class="footer-box">
+            <h3>Crafted Treasures Shop</h3>
+            <p>Crafted Treasures is your destination for artisanal excellence, offering a curated selection of handmade jewelry, home decor, 
+                and gifts. Each piece is crafted with meticulous attention to detail, ensuring quality and uniqueness. Discover the beauty of 
+                handmade treasures that bring joy and inspiration to every corner of your life.</p>
+            <div class="social">
+                <a href="https://web.facebook.com/story.php?story_fbid=555153286111596&id=110934897200106&m_entstream_source=timeline&_rdc=1&_rdr"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.tiktok.com/login"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="https://happymarket.lk/">Products</a></li>
+            <li><a href="https://boundarieswithinnovationbreaking.org/?gad_source=1&gclid=Cj0KCQjwsaqzBhDdARIsAK2gqnegeTDu8t50x5gzNliv2BZFNOvXxYE3EUdDL6JCQDoqaNizOyltXs0aAkmVEALw_wcB">Help & Support</a></li>
+            <li><a href="https://handmade.lk/privacy-policy/">Privacy & Policy</a></li>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <div class="contact">
+                <span><i class='bx bx-map'></i>No. 123 Main Street,Gampaha 11000,Sri Lanka</span>
+                <span><i class='bx bx-phone-call'></i>+94704895212</span>
+                <span><i class='bx bx-envelope' ></i>craftedtreasures@shop.com</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">Copyright 2024, design & develop by Tharushi Nethmini. All rights reserved.</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
